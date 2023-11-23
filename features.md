@@ -11,7 +11,7 @@ header-includes:
 
 ![HoofHub](./assets/images/hoofhub_overlay.png)\
 
-A tool to help you wrangle the details of horse care and schedules, allowing you to provide consistent care based on a reliable source of information.
+A tool to help you wrangle the details of horse care and schedules, enabling you to provide consistent care based on a reliable source of information.
 
 HoofHub is accessed from an application that can be utilized offline, for when you are away from WiFi and cellular service. Your data will sync in the background as soon as it is able to connect to the internet again.
 
