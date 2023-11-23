@@ -23,3 +23,10 @@
 - [ ] Ability to see any horse's care record and optionally share with others
 - [ ] Store each horse's daily feed and supplement information, and keep track of when changes were made
 - [ ] Add other team members to a farm
+
+## Building HTML from `features.md`
+
+```sh
+mkdir -p out && cp -R assets out/
+pandoc features.md -f gfm -t html -s -o out/index.html -c assets/simple.css
+```
