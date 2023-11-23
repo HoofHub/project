@@ -4,6 +4,8 @@ header-includes:
   - |
     ```{=html}
     <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="HoofHub" />
+    <meta property="og:image" content="./assets/images/hoofhub_overlay.png" />
     ```
 ---
 
