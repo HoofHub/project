@@ -28,5 +28,5 @@
 
 ```sh
 mkdir -p out && cp -R assets out/
-pandoc features.md -f gfm -t html -s -o out/index.html -c assets/simple.css
+pandoc features.md -f markdown -t html -s -o out/index.html -c assets/simple.css
 ```

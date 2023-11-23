@@ -1,8 +1,13 @@
 ---
 title: HoofHub
+header-includes:
+  - |
+    ```{=html}
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    ```
 ---
 
-![HoofHub](./assets/images/hoofhub_overlay.png)
+![HoofHub](./assets/images/hoofhub_overlay.png)\
 
 A tool to help you wrangle the details of horse care and schedules, allowing you to provide consistent care based on a reliable source of information.
 
