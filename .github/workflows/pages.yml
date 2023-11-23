@@ -4,7 +4,7 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
-    paths: ["features.md", ".github/**"]
+    paths: ["features.md", "_config.yml", ".github/**"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -29,7 +29,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Build document to deploy
-        run: mkdir -p build && cp features.md build/index.md
+        run: |
+          mkdir -p build
+          cp features.md build/index.md
+          cp _config.yml build/
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Build with Jekyll
